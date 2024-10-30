@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/status", (req, res) => {
-  res.json({ status: "API is running very successfully" });
+  res.json({ status: "API is running very successfullynfnfn" });
 });
 
 const PORT = process.env.PORT || 3000;
